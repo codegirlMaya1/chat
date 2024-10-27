@@ -1,0 +1,51 @@
+/* App.css */
+.navbar {
+  margin-bottom: 20px;
+}
+
+.message-container {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: white; /* Ensure the font color is white */
+}
+
+.message-container.user-a {
+  background-color: gray;
+}
+
+.message-container.user-b {
+  background-color: blue;
+}
+
+.message-container.user-c {
+  background-color: green;
+}
+
+.message-container.user-d {
+  background-color: red;
+}
+
+.message-timestamp {
+  font-size: 0.8em;
+  color: #6c757d;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.messages {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
